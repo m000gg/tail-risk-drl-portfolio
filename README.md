@@ -54,8 +54,9 @@ $$
 \sum_{i=1}^{N} w_i = 1, \quad 0 \le w_{i,\min} \le w_i \le w_{i,\max} \le 1
 $$
 
+
 where:
-* $\rho_\alpha(\cdot) \in \{\text{Variance}, \text{CVaR}_\alpha, \text{EVaR}_\alpha\}$ — selected risk measure,
+- $\rho_\alpha(\cdot) \in \{ \text{Variance}, \text{CVaR}_\alpha, \text{EVaR}_\alpha \}$ — selected risk measure,
 * $w_i^0$ — initial portfolio weights before rebalancing,
 * $\beta_1, \beta_2 \in (0, 1)$ — prescribed reliability confidence levels.
 
