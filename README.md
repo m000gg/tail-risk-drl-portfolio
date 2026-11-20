@@ -56,7 +56,7 @@ $$
 
 
 where:
-- $\rho_\alpha(\cdot) \in \{ \text{Variance}, \text{CVaR}_\alpha, \text{EVaR}_\alpha \}$ — selected risk measure,
+* $`\rho_\alpha(\cdot) \in \{\text{Variance}, \text{CVaR}_\alpha, \text{EVaR}_\alpha\}`$ — selected risk measure
 * $w_i^0$ — initial portfolio weights before rebalancing,
 * $\beta_1, \beta_2 \in (0, 1)$ — prescribed reliability confidence levels.
 
