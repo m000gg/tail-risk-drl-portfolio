@@ -36,22 +36,30 @@ $$
 
 Subject to probabilistic reliability constraints and market frictions:
 
-1. **Net Return Reliability Constraint** (accounting for proportional transaction costs $k_i$):
+**1. Net Return Reliability Constraint** (accounting for proportional transaction costs $k_i$):
+
 $$
 \Pr\left( \sum_{i=1}^{N} w_i r_{i,t} - \sum_{i=1}^{N} k_i |w_i - w_i^0| \ge r_p^* \right) \ge \beta_1
 $$
 
-2. **Downside Risk Reliability Constraint**:
+**2. Downside Risk Reliability Constraint:**
+
 $$
 \Pr\left( \rho_\alpha(\mathbf{w}) \le \rho^* \right) \ge \beta_2
 $$
 
-3. **Budget & Allocation Bounds**:
+**3. Budget & Allocation Bounds:**
+
 $$
 \sum_{i=1}^{N} w_i = 1, \quad 0 \le w_{i,\min} \le w_i \le w_{i,\max} \le 1
 $$
 
-where $\rho_\alpha(\cdot) \in \{\text{Variance}, \text{CVaR}_\alpha, \text{EVaR}_\alpha\}$, $w_i^0$ represents pre-rebalancing weights, and $\beta_1, \beta_2 \in (0, 1)$ denote prescribed reliability confidence levels.
+where:
+* $\rho_\alpha(\cdot) \in \{\text{Variance}, \text{CVaR}_\alpha, \text{EVaR}_\alpha\}$ — selected risk measure,
+* $w_i^0$ — initial portfolio weights before rebalancing,
+* $\beta_1, \beta_2 \in (0, 1)$ — prescribed reliability confidence levels.
+
+
 
 ## Planned Architecture
 
