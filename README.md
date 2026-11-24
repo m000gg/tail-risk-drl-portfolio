@@ -79,8 +79,8 @@ where:
 ### Phase 1: Paper Breakdown & Math Foundations *(Current Stage)*
 * [x] Problem motivation & coherent risk measures ($\text{VaR}$, $\text{CVaR}$, $\text{EVaR}$)
 * [x] Reliability-Based Design Optimization (RBDO) & Model A / Model B formulations
-* [ ] Model C ($\text{EVaR}$) formulation & MDP / PPO reward function design
-* [ ] Time-decomposed QMC + Student's t-copula scalability mechanics
+* [x] Model C ($\text{EVaR}$) formulation & MDP / PPO reward function design
+* [x] Time-decomposed QMC + Student's t-copula scalability mechanics
 
 ### Phase 2: Implementation & Prototyping
 * [ ] Historical data pipeline & `GARCH(1,1)` + EVT scenario generator
